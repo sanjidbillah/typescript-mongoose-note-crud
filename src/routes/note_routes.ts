@@ -1,5 +1,5 @@
 import express from 'express';
-import controller from '../controllers/note';
+import controller from '../controllers/note_controller';
 const router = express.Router();
 
 router.get('/notes', controller.getAllNote);

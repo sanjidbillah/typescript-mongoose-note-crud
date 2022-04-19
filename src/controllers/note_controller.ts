@@ -1,6 +1,6 @@
 import { NextFunction, Request, Response } from "express";
 import mongoose from "mongoose";
-import Note from '../models/note';
+import Note from '../models/note_models';
 
 const createNote = async (req: Request, res: Response, next: NextFunction) => {
   let { author, desc, title } = req.body;

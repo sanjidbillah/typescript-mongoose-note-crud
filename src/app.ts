@@ -2,7 +2,7 @@ import http from 'http';
 import express from 'express';
 import mongoose from 'mongoose';
 import config from './config/config';
-import noteRoute from './routes/note'
+import noteRoute from './routes/note_routes'
 import logging from './config/logger';
 const NAMESPACE = 'Server';
 const app = express();

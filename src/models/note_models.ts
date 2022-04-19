@@ -1,5 +1,5 @@
 import mongoose, { Schema } from 'mongoose';
-import INote from '../interface/note';
+import INote from '../interface/note_interface';
 
 
 const BookSchema: Schema = new Schema(
